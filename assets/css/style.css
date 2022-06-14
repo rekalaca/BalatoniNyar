@@ -607,12 +607,10 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 54px;
-  background: #149ddd;
+  width: 154px;
+  height: 154px;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
 }
 .services .icon i {
   color: #fff;
@@ -621,9 +619,6 @@ section {
 }
 .services .icon-box:hover .icon {
   background: #fff;
-}
-.services .icon-box:hover .icon i {
-  color: #149ddd;
 }
 .services .title {
   margin-left: 80px;
