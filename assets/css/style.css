@@ -633,9 +633,12 @@ section {
   color: #149ddd;
 }
 .services .description {
-  margin-left: 80px;
+  margin-left: 180px;
   line-height: 24px;
   font-size: 14px;
+}
+.bekezd{
+  margin-left: 20px;
 }
 
 /*--------------------------------------------------------------
