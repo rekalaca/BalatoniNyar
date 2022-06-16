@@ -320,6 +320,8 @@ section {
 }
 .kepkeret{
   border-radius: 50%;
+  border-color: red;
+  border-style: dotted;
 }
 
 /*--------------------------------------------------------------
@@ -398,6 +400,11 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+.kor{
+  border-radius: 50%;
+  border-color: #df4508;
+  border-style: groove;
 }
 
 /*--------------------------------------------------------------
