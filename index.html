@@ -60,6 +60,8 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bi bi-controller"></i> <span>Főoldal</span></a>
           </li>
+          <li><a href="#weather" class="nav-link scrollto"><i class="bi bi-cloud-sun"></i> <span>Időjárás</span></a>
+          </li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bi-bag-plus"></i> <span>Csak ha
                 szükséges</span></a></li>
           <li><a href="#skills" class="nav-link scrollto"><i class="bi bi-info-square"></i><span>Távolságok</span></a>
@@ -68,6 +70,8 @@
           </li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i>
               <span>Programok</span></a></li>
+          <li><a href="/videos.html" class="nav-link scrollto"><i class="bi bi-camera-reels"></i>
+              <span>Videók</span></a></li>
           <li><a href="#services" class="nav-link scrollto"><i class="bi bi-basket3"></i><span>Sütés - Főzés</span></a>
           </li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-home"></i> <span>A nyaralóház</span></a></li>
@@ -87,6 +91,34 @@
   </section><!-- End Hero -->
 
   <main id="main">
+
+    <!-- ======= Weather Section ======= -->
+    <section id="weather" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Időjárás</h2>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <!-- weather widget start -->
+            <p>Aktuális időjrás:</p>
+            <a target="_blank" href="https://www.booked.hu/weather/balatongyorok-36449"><img
+                src="https://w.bookcdn.com/weather/picture/3_36449_1_14_137AE9_430_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=462&anc_id=89383"
+                alt="booked.net" /></a>
+            <!-- weather widget end -->
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <p>Magyarország felhőképe:</p>
+            <a href="http://www.idokep.hu/" target="_blank" title="Időjárás"><img
+                src="//www.idokep.hu/terkep/hu_mini/i_anim.gif" alt="Felhőkép" class="weath"></a>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Weather Section -->
 
     <!-- ======= About Egészségügyi Section ======= -->
     <section id="about" class="about">
@@ -589,7 +621,8 @@
                 src="assets/img/kaja/grillmell.jpg" class="img-fluid icon" alt=""></a>
             <h4 class="title"><a href="">Grillezett csirkemell</a></h4>
             <p class="description">Grillszezonban kötelező húst sütni a rácson, és bár erre a célra a zsírosabb,
-              szaftosabb húsok a népszerűbbek, <a href="https://sobors.hu/receptek/grillezett-csirkemell-recept/" target="_blank"> csirkemell</a> is lehet ízletes és szaftos. A titka a pácban rejlik, ez lehet
+              szaftosabb húsok a népszerűbbek, <a href="https://sobors.hu/receptek/grillezett-csirkemell-recept/"
+                target="_blank"> csirkemell</a> is lehet ízletes és szaftos. A titka a pácban rejlik, ez lehet
               nedves- és szárazpác, előbbiben egy kis ideig pihennie kell a húsnak, utóbbi inkább a gyors megoldás. </p>
           </div>
         </div>
@@ -733,10 +766,6 @@
         &copy; Copyright <strong><span>rekalaca mvk</span></strong>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
         Designed by <a href="https://bootstrapmade.com/">rekalaca</a>
       </div>
     </div>
@@ -755,6 +784,8 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
