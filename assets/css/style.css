@@ -984,5 +984,8 @@ section {
 
 .westfonts{
   margin-top: 50px;
-  width: 40%;
+  text-align: justify;
+}
+.szel{
+  width: 80%;
 }
