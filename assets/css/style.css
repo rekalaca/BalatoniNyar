@@ -987,5 +987,14 @@ section {
   text-align: justify;
 }
 .szel{
-  width: 80%;
+  width: 90%;
+}
+.kozep{
+  margin: 0 auto 0 auto;
+}
+.maskozep{
+  text-align: center;
+}
+.sorki{
+  text-align: justify;
 }
