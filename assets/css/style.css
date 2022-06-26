@@ -1001,3 +1001,12 @@ section {
 .vidszel{
   margin: 10px;
 }
+.ido{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+.foido{
+  text-align: center;
+  font-size: large;
+}

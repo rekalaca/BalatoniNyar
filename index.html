@@ -34,6 +34,7 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
 </head>
 
 <body>
@@ -60,7 +61,8 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bi bi-controller"></i> <span>Főoldal</span></a>
           </li>
-          <li><a href="#weather" class="nav-link scrollto"><i class="bi bi-cloud-sun"></i> <span>Időjárás & bevásárlás</span><i class="bi bi-cart4"></i></a>
+          <li><a href="#weather" class="nav-link scrollto"><i class="bi bi-cloud-sun"></i> <span>Időjárás &
+                bevásárlás</span><i class="bi bi-cart4"></i></a>
           </li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bi-bag-plus"></i> <span>Csak ha
                 szükséges</span></a></li>
@@ -101,6 +103,31 @@
       <div class="container">
 
         <div class="section-title">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success foido" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            Mennyi nap van még az indulásig?... Kattints IDE!
+          </button>
+          <br><br>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title ido" id="staticBackdropLabel">A hátralévő idő:</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p id="demo" class="ido"></p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-success" data-bs-dismiss="modal">Bezárom!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <h2>Időjárás & bevásárlás</h2>
         </div>
         <div class="row skills-content">
@@ -118,8 +145,8 @@
           </div>
           <div class="col-lg-4 maskozep" data-aos="fade-up" data-aos-delay="100">
             <p>CBA Príma:</p>
-            <a href="https://prima.hu/ajanlatok/ujsag" target="_blank" title="Időjárás"><img
-                src="assets/img/cba_prima.JPG" alt="Felhőkép" class="weath"></a>
+            <a href="https://prima.hu/ajanlatok/ujsag" target="_blank" title="Bevásárláshoz"><img
+                src="assets/img/cba_prima.JPG" alt="CBA" class="weath"></a>
           </div>
         </div>
       </div>
@@ -399,9 +426,8 @@
               A kedvezmények felsorolását a West-Balaton Card tájékoztató <a
                 href="https://west-balaton.hu/wp-content/uploads/2021/05/west_balaton_kartyafuzet_20210512_modborito.pdf">
                 füzetében</a> találják, melyet a kártya érvényesítésével együtt adunk át Önöknek.
-                <br>
-                A hivatalos oldal <a
-                href="https://west-balaton.hu/west-balaton-card">
+              <br>
+              A hivatalos oldal <a href="https://west-balaton.hu/west-balaton-card">
                 ITT</a> érhető el.
             </p>
           </div>
@@ -562,8 +588,8 @@
               <img src="assets/img/portfolio/mamma.jpg" class="img-fluid" alt="">
               <p>Mamma Mia étterem - Agárd</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/mamma.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Mamma Mia étterem"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/mamma.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  title="Mamma Mia étterem"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html#mamma" title="Több infó"><i class="bx bx-link"></i></a>
               </div>
             </div>
@@ -856,11 +882,11 @@
 
           <div class="col-lg-6 mt-5 mt-lg-0 igazit">
             <img src="assets/img/nyaralo.jpg" class="img-fluid igazit" alt="Nyaralónk">
+
+
           </div>
 
         </div>
-
-      </div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -895,6 +921,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="assets/js/count.js"></script>
 
 </body>
 
